@@ -1,0 +1,60 @@
+#Header{ 
+
+    color: white; 
+
+    background-color: black; 
+
+    margin-left: 0px; 
+
+    margin-top: 0px; 
+
+    height: 100px;  
+
+} 
+
+#Titulo{ 
+
+    position: absolute; 
+
+    margin-left: 100px; 
+
+    margin-top: 25px; 
+
+} 
+
+nav{ 
+
+    background-color: gray; 
+    color: white; 
+    text-align: center;
+    padding: 10px;
+     
+
+} 
+
+nav ul{
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+#Section1{
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+#Section2{
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+@media only screen and(max-wisth: 600px){
+    main,
+    aside {
+        display: block;
+        width: 100px;
+    }
+}
